@@ -89,28 +89,5 @@ if __name__ == '__main__':
         tokens['oauth_token_secret']
     )
 
-    # print('pytumblr client created. You may run pytumblr commands prefixed with "client".\n')
 
-    # code.interact(local=dict(globals(), **{'client': client}))
 
-    # print(type(client.info()))
-    current = client.info()
-    print(current['user']['name'])
-    # print(current['user']['blogs'])
-    a=1
-    # for i in current['user']['blogs']:
-    #     print(a)
-    #     a = a+1
-    #     print(i)
-    #     print('\n')
-
-    random = client.blog_info("pyzy")
-    print(random)
-    # time.strftime()
-    csv_file = "sample"+ str(time.localtime)
-    with open(csv_file, 'a', newline='') as csvfile:
-        fieldnames = ['name', 'avatar']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-
-        # writer.writeheader()
-        writer.writerow({'name': 'aa', 'avatar': 'ba'})
