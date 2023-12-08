@@ -1,7 +1,7 @@
 # Tumblr Fake User Dataset
 
 ## Description
-This dataset contains Tumblr user information with posts information
+This dataset contains Tumblr user information with posts information. More data would be updated in the future.
 
 ## Dataset Structure
 There are two files, one is for all user information, another is for posts information
@@ -29,14 +29,14 @@ Features for posts dataset includes:
 - summary: summary of the post
 - slug: user given slug
 - original_author: original author for reblog posts
-- interactability_reblog: whether can be rebloged
+- interactability_reblog: whether can be reblogged
 - interactability_blaze: whether can be interacted
-- like_count: number of like received by the time of collection
+- like_count: number of likel received by the time of collection
 - reblog_count: number of reblogs by the time of collection
 - posted_count: number of posted received by the time of collection
 - likelist: users who liked the post by the time of collection
 - rebloglist: users who reblogged the post by the time of collection
-- postlist: : users who interacted with the post by the time of collection
+- postlist: users who interacted with the post by the time of collection
 
 
 <!-- ## Data Collection Method
